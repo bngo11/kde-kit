@@ -4,7 +4,7 @@ EAPI=7
 
 KDE_HANDBOOK="forceoptional"
 KDE_TEST="forceoptional"
-FRAMEWORKS_MINIMAL=5.75.0
+FRAMEWORKS_MINIMAL=5.98.0
 QT_MINIMAL=5.15.1
 VIRTUALX_REQUIRED="test"
 inherit kde5
@@ -38,7 +38,6 @@ RDEPEND="
 	$(add_kdeapps_dep akonadi-mime)
 	$(add_kdeapps_dep akonadi-notes)
 	$(add_kdeapps_dep grantleetheme)
-	$(add_kdeapps_dep kalarmcal)
 	$(add_kdeapps_dep kcalutils)
 	$(add_kdeapps_dep kidentitymanagement)
 	$(add_kdeapps_dep kimap)

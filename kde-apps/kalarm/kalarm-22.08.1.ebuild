@@ -3,7 +3,7 @@
 EAPI=7
 
 KDE_HANDBOOK="forceoptional"
-FRAMEWORKS_MINIMAL=5.75.0
+FRAMEWORKS_MINIMAL=5.98.0
 QT_MINIMAL=5.15.1
 inherit kde5
 
@@ -26,7 +26,6 @@ DEPEND="
 	$(add_kdeapps_dep akonadi-contacts)
 	$(add_kdeapps_dep akonadi-mime)
 	$(add_kdeapps_dep grantleetheme)
-	$(add_kdeapps_dep kalarmcal)
 	$(add_kdeapps_dep kcalutils)
 	$(add_kdeapps_dep kidentitymanagement)
 	$(add_kdeapps_dep kmailtransport)
